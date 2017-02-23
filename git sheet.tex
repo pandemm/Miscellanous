@@ -1,0 +1,44 @@
+\documentclass{a0poster}
+\usepackage{graphicx}
+\usepackage{scrextend}
+
+\begin{document}
+\title{Git sheet}
+\author{Lassi Uosukainen}
+\maketitle
+
+\section{Normal commit}
+\subsection{Staging files to git}
+\begin{tabular}{l  c}
+Command & Effect\\
+git status & See which files have been modified\\
+git add filename & Stages specified files\\
+git add -A & Stages all files\\
+git add . & Stages new and modified but not deleted\\
+git add -u & Stages modifiend and deleted but not new\\
+git add -n & Shows which files would be staged, but doesn't stage them\\
+git reset & Unstages all changes\\
+
+\end{tabular}
+
+\subsection{Committing}
+\begin{tabular}{l  c}
+Command & Effect\\
+
+\end{tabular}
+\subsection{Pushing}
+\begin{tabular}{l  c}
+Command & Effect\\
+
+\end{tabular}
+
+\section{Miscellaneous}
+\begin{tabular}{c c}
+Command & Effect\\
+gitk filename & View modification history of file\\
+git pull upstream master & Pulls changes from master\\
+git cherry pick & Change commit from one branch to another\\
+
+\end{tabular}
+
+\end{document}
